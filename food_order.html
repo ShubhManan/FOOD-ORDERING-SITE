@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHELBY's CAFE</title>
+    <link rel="stylesheet" href="food_order.css">
+    <script async src="hi.js"></script>
+</head>
+<body>
+    <header id="NaviBar">
+        <UL>
+            <LI><a href="#">MENU</a></LI>
+            <LI><a href="#">STORE LOCATOR</a></LI>
+            <LI><a href="#">CONTACT US</a></LI>
+            <LI><a href="#">LOGIN</a></LI>
+            <div class="LoNa">
+                <img src="logo-final.jpg" alt="" id="logo" width=100px height=35px>
+                <h3>SHELBY'S CAFE</h3>
+                <div class="search">
+                    <input type="text" name="Search" id="search"  placeholder="Search the dish">
+                </div>
+            </div>
+        </UL>
+    </header>
+    <img src="pizza.jpg" id="pizza" alt="">
+    <div class="fblock">  
+        <br>      
+        <h1>ABOUT THE FOUNDER</h1>
+        <div class="fndr">
+            <div class="box" id="box1">
+                <img src="https://i.insider.com/6038b0db05ddb100195f656e?width=700" alt="" class="foundr">
+            </div>
+            <div id="box2">
+                <p class="box" class="fdtext">
+                    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, nulla laudantium aut velit error, ut eos sapiente dicta dolorem, non voluptates enim officia quisquam dolor eligendi consectetur exercitationem iure laboriosam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum quaerat consequuntur ab a provident magni at sed repellendus voluptatibus quis. Doloribus labore debitis accusantium dolorem deserunt accusamus autem dolores, maxime repellendus aperiam culpa animi, adipisci cupiditate! Consequuntur dolore minima fuga beatae corporis aut, eos totam neque, soluta id veniam nemo?'
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <form action="backend.php">
+        <h1>FEEDBACK</h1>
+        <div class="fdbkblock">
+            <div class="val">
+                <input type="text" name="CustName" id="enval" placeholder="NAME">
+            </div>
+            <div class="val">
+                <input type="email" name="CustEm" id="enval" placeholder="EMAIL">
+            </div>
+            <div class="val">
+                <input type="number" name="CustOr" id="enval"placeholder="Number of orders till date">
+            </div>
+            <div class="val">
+                <input type="date" name="LastOr" id="enval"placeholder="date of last order">
+            </div>
+            <div class="val">
+                <span CLASS="CustGen">GENDER:</span>
+                <input type="radio" name="gender" id="">
+                <span CLASS="CustGen">MALE</span>
+                <input type="radio" name="gender" id="gender">
+                <span CLASS="CustGen">FEMALE</span>
+            </div>
+            <div class="val">
+                <span class="confirm">
+                    IF YOU ARE SURE THEN SUBMIT ELSE RESET
+                </span>
+            </div>
+            <div class="val">
+                <input type="submit" value="SUBMIT" id="sub">
+                <input type="reset" value="RESET"id="res">                     
+            </div>
+        </form>
+</body>
+</html>
